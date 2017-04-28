@@ -12,6 +12,9 @@
 		6E2371C91E8957A200A4AB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2371C71E8957A200A4AB23 /* Main.storyboard */; };
 		6E2371CB1E8957A200A4AB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2371CA1E8957A200A4AB23 /* Assets.xcassets */; };
 		6E2371CE1E8957A200A4AB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2371CC1E8957A200A4AB23 /* LaunchScreen.storyboard */; };
+		6E2371D61E8A21C100A4AB23 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2371D51E8A21C100A4AB23 /* VC2.swift */; };
+		6E2371D81E8A2C0200A4AB23 /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2371D71E8A2C0200A4AB23 /* VC3.swift */; };
+		6E2371DA1E8B7F0800A4AB23 /* VC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2371D91E8B7F0800A4AB23 /* VC4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6E2371CA1E8957A200A4AB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E2371CD1E8957A200A4AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E2371CF1E8957A200A4AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2371D51E8A21C100A4AB23 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		6E2371D71E8A2C0200A4AB23 /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		6E2371D91E8B7F0800A4AB23 /* VC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				6E2371C31E8957A200A4AB23 /* AppDelegate.swift */,
 				6E2371C51E8957A200A4AB23 /* ViewController.swift */,
 				6E2371C71E8957A200A4AB23 /* Main.storyboard */,
+				6E2371D91E8B7F0800A4AB23 /* VC4.swift */,
+				6E2371D71E8A2C0200A4AB23 /* VC3.swift */,
+				6E2371D51E8A21C100A4AB23 /* VC2.swift */,
 				6E2371CA1E8957A200A4AB23 /* Assets.xcassets */,
 				6E2371CC1E8957A200A4AB23 /* LaunchScreen.storyboard */,
 				6E2371CF1E8957A200A4AB23 /* Info.plist */,
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E2371D81E8A2C0200A4AB23 /* VC3.swift in Sources */,
+				6E2371D61E8A21C100A4AB23 /* VC2.swift in Sources */,
+				6E2371DA1E8B7F0800A4AB23 /* VC4.swift in Sources */,
 				6E2371C61E8957A200A4AB23 /* ViewController.swift in Sources */,
 				6E2371C41E8957A200A4AB23 /* AppDelegate.swift in Sources */,
 			);
